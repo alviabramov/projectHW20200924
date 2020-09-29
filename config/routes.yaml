@@ -1,0 +1,39 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+user-create:
+  path: /user/create
+  controller: App\Controller\UserController::create
+
+user-delete:
+  path: /user/delete
+  controller: App\Controller\UserController::delete
+
+user-update:
+  path: /user/update
+  controller: App\Controller\UserController::update
+
+user-read:
+  path: /user/
+  controller: App\Controller\UserController::read
+
+product-create:
+  path: /product/create
+  controller: App\Controller\ProductController::create
+
+product-read:
+  path: /product/
+  controller: App\Controller\ProductController::read
+
+product-update:
+  path: /product/update
+  controller: App\Controller\ProductController::update
+
+
+product-delete:
+  path: /product/delete
+  controller: App\Controller\ProductController::delete
+
+
+
